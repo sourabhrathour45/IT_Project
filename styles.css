@@ -1,14 +1,14 @@
 body{
     background-color: #1f2028;
-    font-family: Futura;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
 
 }
 
-@font-face {
+/* @font-face {
     font-family: Futura;
     src: local('Futura Std');
-  }
+  } */
 
   nav{
     margin-top:60px;
@@ -82,7 +82,7 @@ section{
 }
 
 #hero-para{
-    margin-top:2%;
+    margin-top:200px;
     font-size: 30px;
    font-family:Futura;
    margin-left: 80px;
