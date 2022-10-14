@@ -376,3 +376,9 @@ table{
     margin:0;
 }
 
+.paragraph {
+    font-size:24px;
+    line-height:1.6;
+    color:#e6e6e6;
+    text-align: justify;
+}
