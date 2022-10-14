@@ -1,0 +1,253 @@
+body{
+    background-color: #1f2028;
+    font-family: Futura;
+    color:white;
+
+}
+
+@font-face {
+    font-family: Futura;
+    src: local('Futura Std');
+  }
+
+  nav{
+    margin-top:60px;
+  }
+  
+ul {
+    display: flex;
+    
+   
+}
+
+.list{
+    color: #a9adc1;
+    margin-left:60px;
+    text-decoration: none;
+}
+
+#logo{
+    margin-left:200px
+   
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color:#a9adc1
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:#a9adc1
+  }
+  
+  a:hover {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+   
+  }
+  
+  a:active {
+    text-decoration:solid;
+  }
+
+
+#title{
+    font-size: 26px;
+    margin-right: 250px;
+    font-family: Futura;
+    margin-top:-10px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+#hero_image {
+    height:650px;
+    width: 900px;
+    margin-left:-80px;
+}
+
+#hero-para{
+    margin-top:200px;
+    font-size: 30px;
+   font-family:Futura;
+   margin-left: 80px;
+   opacity: 90%;
+   
+}
+
+#video_section{
+    display:flex;
+    flex-direction: row;
+    margin-top:200px;
+}
+
+#video{
+   
+    margin-left:110px
+}
+
+#cards {
+    display:flex;
+
+}
+
+#readBlog {
+    background-color: white;
+    border:6px solid #1f2028;
+    color:black;
+    height :70px;
+    width: 195px;
+    border-radius: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+#explorecompany{
+   
+    border:2px solid #585858;
+    height :70px;
+    width: 195px;
+    border-radius: 36px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 93px;
+    margin-top: 25px;
+}
+
+#readBlog:hover{
+    border:6px double black;
+    border-radius: 40px;
+}
+
+#explorecompany:hover{
+    border:2px solid white;
+}
+
+aside {
+    background-color: #2E3039;
+    height:100%;
+    width:20%;
+    margin:-10px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color:#bbbbbb;
+    position:fixed;
+ 
+
+}
+
+aside:hover{
+overflow-y: scroll;
+}
+
+.bracket{
+  margin-top:auto;
+ 
+}
+
+#applePage {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.company_name {
+ margin-left:45%;
+ margin-top:4%;
+}
+
+.bracket:hover{
+    
+    color: white;
+    font-size: 24px;
+
+}
+
+.back_button {
+    margin-top: 40px;
+}
+
+.cards-image {
+    height :500px;
+    width: 350px;
+    margin-left:50px;
+    border-radius:16px
+}
+
+#footer{
+    margin-top: 200px;
+    border-top: 0.1px solid #a9adc1;
+    margin-bottom:60px
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color:white;
+    font-size:20px
+   
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color:white;
+    font-size:20px
+   
+  }
+
+::-webkit-scrollbar{
+    width:3px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#8c8c8c;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid #a9adc1 ;
+    background-color:#2E3039;
+    border-collapse: collapse;
+}
+
+table{
+    height:300px;
+    width:650px;
+    margin-left:-110px;
+    margin-top: 30px;
+    margin-bottom:40px
+}
+
+.blogpage{
+    margin:0;
+}
+
