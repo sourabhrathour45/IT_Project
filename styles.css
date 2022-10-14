@@ -86,7 +86,7 @@ body{
   }
 
   .varcolor4{
-    margin-left:220px;font-size:18px;color:#a9adc1
+    margin-left:180px;font-size:18px;color:#a9adc1
  }
 
 
@@ -96,7 +96,7 @@ body{
 
 
  .varcolor6{
-    margin-left:210px;font-size:18px;color:#a9adc1
+    margin-left:180px;font-size:18px;color:#a9adc1
  }
 
  .varcolor7{
@@ -382,3 +382,13 @@ table{
     color:#e6e6e6;
     text-align: justify;
 }
+
+.cards-image:hover{
+    border:0.8px solid white;
+   
+}
+
+
+.container.dark .cards-image:hover{
+   border:0px;
+  }
